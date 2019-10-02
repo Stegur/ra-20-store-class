@@ -32,7 +32,7 @@ class ShopItemClass extends React.Component {
 }
 
 ShopItemClass.propTypes = {
-    shopItem: PropTypes.shape({
+    item: PropTypes.shape({
         brand: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         description: PropTypes.string,
